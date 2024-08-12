@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #748ca7; /* Gray background */
+  }
+  
+  .registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; /* Add padding for better alignment on smaller screens */
+  }
+  
+  .registration-form {
+    background-color: #ffffff;
+    padding: 80px 60px; /* Increased padding for a larger form */
+    border-radius: 16px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow for more emphasis */
+    width: 100%;
+    max-width: 600px; /* Wider div */
+    text-align: center; /* Center text */
+  }
+  
+  .registration-form h2 {
+    margin: 0;
+    font-size: 36px; /* Larger font size for the heading */
+    color: #444;
+    margin-bottom: 40px; /* Space between heading and form */
+  }
+  
+  .name-fields, .contact-fields, .password-fields {
+    display: flex;
+    justify-content: space-between; /* Space fields evenly */
+    gap: 20px; /* Space between fields */
+    margin-bottom: 30px; /* More space between groups */
+  }
+  
+  .name-field, .contact-field, .password-field {
+    flex: 1;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 16px; /* Larger padding for input fields */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px; /* Larger font size for better readability */
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 16px; /* Larger padding for button */
+    background-color: #007bff;
+    color: white;
+    font-size: 18px; /* Larger font size for button */
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 16px; /* Slightly larger font size for error messages */
+    margin-top: -10px;
+    margin-bottom: 20px; /* More space below error message */
+  }
+  
+  .login-link {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333; /* Dark color for visibility */
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light gray background */
+  }
+  
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #007bff; /* Blue background */
+    padding: 15px 30px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .hero-section {
+    background-color: #007bff; /* Blue background */
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero-content h1 {
+    margin: 0;
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #ffffff; /* White button */
+    color: #007bff; /* Blue text color */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e0e0e0; /* Light gray on hover */
+  }
+  
+  .features-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff; /* White background */
+  }
+  
+  .features-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333; /* Dark text color */
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+  }
+  
+  .feature h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #007bff; /* Blue color for headings */
+  }
+  
+  .feature p {
+    font-size: 16px;
+    color: #555; /* Darker text color */
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
